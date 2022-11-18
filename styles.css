@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.image-eu {
+    width: 180px;
+    height: 180px;
+    border: 3px solid rgb(178, 241, 219);
+    border-radius:100%;
+    margin: 150px 10px 10px 50px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul > li > a {
+    color: white;
+    font-size: 20px;
+}
+
+ul > li > a:hover {
+    color: blueviolet;
+}
+
+li {
+    line-height: 2.5rem;
+}
+
+a {
+   text-decoration: none;
+}
+
+
+header {
+    width: 21%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(84, 206, 165);
+}
+
+main {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(178, 241, 219);
+    padding-left: 40px;
+    position: absolute;
+    left: 274px;
+}
+
+.about {
+    position: absolute;
+    top: calc(50vw - 75%);
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.3rem;
+}
+
+.about > h1 > span {
+    color: blueviolet;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.about > h3 > span > a {
+    color: blueviolet;
+}
+
+.phone {
+    width: 20px;
+    margin-left: 10px;
+
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+img {
+    width: 35px;
+    margin-left: 20px; 
+}
+
+a > img:hover {
+    width: 45px;
+}
+
+ol {
+    list-style: none;
+    text-align: start;
+    position: absolute;
+    top: calc(50vw - 75%);
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: 'Sono', sans-serif; 
+}
+
+ol > li {
+    margin-top: 25px;
+}
+
+.lista3 {
+    list-style: none;
+    text-align: start;
+    position: absolute;
+    top: calc(50vw - 70%);
+    font-size: 1.6rem;
+    font-weight: 200;
+    font-family: 'Sono', sans-serif; 
+}
+
+.lista3 > li {
+    line-height: 0.5rem;
+
+}
+
+.lista3 > li > h3 {
+    font-size: 2.7rem;
+    margin-bottom: 35px;
+}
+
+.lista4 {
+    list-style: none;
+    text-align: start;
+    position: absolute;
+    top: calc(50vw - 70%);
+    margin-left: 570px;
+    font-size: 1.6rem;
+    font-weight: 200;
+    font-family: 'Sono', sans-serif; 
+}
+
+.lista4 > li {
+    line-height: 0.5rem;
+}
+
+.lista4 > li > h3 {
+    font-size: 2.7rem;
+    margin-bottom: 35px;
+}
